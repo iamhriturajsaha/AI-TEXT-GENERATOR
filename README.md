@@ -6,12 +6,28 @@ An interactive Streamlit web application that detects sentiment in user input an
 
 This project combines sentiment analysis with natural language generation to create an AI writing assistant that produces emotionally consistent text. The application automatically detects whether input text is positive, negative or neutral, then generates new content matching that sentiment.
 
-**Key Capabilities**
+**Key Capabilities -**
 - Uplifting and encouraging positive content.
 - Empathetic and emotional negative content.
 - Objective and factual neutral content.
 
 The app includes intelligent prompt cleanup to remove instructions and meta-commentary, ensuring clean text generation focused on meaningful content.
+
+## Usage
+
+1. Enter your text or prompt in the input field.
+2. The system automatically detects the sentiment.
+3. Click "Generate Text" to create sentiment-aligned content.
+4. Adjust the token length slider for longer/shorter outputs.
+5. View the color-coded sentiment label and generated text.
+
+<p align="center">
+  <img src="Streamlit Screenshots/1.png" alt="1" width="1000"/><br>
+  <img src="Streamlit Screenshots/2.png" alt="2" width="1000"/><br>
+  <img src="Streamlit Screenshots/3.png" alt="3" width="1000"/><br>
+  <img src="Streamlit Screenshots/4.png" alt="4" width="1000"/><br>
+  <img src="Streamlit Screenshots/5.png" alt="5" width="1000"/><br>
+</p>
 
 ## Features
 
@@ -77,7 +93,7 @@ NGROK_AUTH_TOKEN = "your_token_here"
 
 ### Option 2 - Local Installation
 
-1. **Clone the repository:**
+1. **Clone the repository**
 ```bash
 git clone https://github.com/iamhriturajsaha/AI-TEXT-GENERATOR.git
 cd AI-TEXT-GENERATOR
@@ -98,14 +114,6 @@ venv\Scripts\activate
 ```bash
 streamlit run app.py
 ```
-
-## Usage
-
-1. Enter your text or prompt in the input field.
-2. The system automatically detects the sentiment.
-3. Click "Generate Text" to create sentiment-aligned content.
-4. Adjust the token length slider for longer/shorter outputs.
-5. View the color-coded sentiment label and generated text.
 
 ## Technical Details
 
