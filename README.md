@@ -55,8 +55,8 @@ The app includes intelligent prompt cleanup to remove instructions and meta-comm
 ## Technical Stack
 
 ### Models
-- **Sentiment Analysis -** `distilbert-base-uncased-finetuned-sst-2-english`
-- **Text Generation -** `gpt2` (HuggingFace Transformers)
+- **Sentiment Analysis -** `distilbert-base-uncased-finetuned-sst-2-english`.
+- **Text Generation -** `gpt2` (HuggingFace Transformers).
 
 ### Dependencies
 ```
@@ -104,7 +104,6 @@ cd AI-POWERED-TEXT-GENERATOR
 # macOS/Linux
 python -m venv venv
 source venv/bin/activate
-
 # Windows
 python -m venv venv
 venv\Scripts\activate
@@ -119,9 +118,9 @@ streamlit run app.py
 
 ### Sentiment Classification
 The app uses three sentiment-specific prompts for generation -
-- **Positive -** "Write a positive and uplifting paragraph about - {topic}"
-- **Negative -** "Write a sad and emotional paragraph about - {topic}"
-- **Neutral -** "Write a factual and objective paragraph about - {topic}"
+- **Positive -** "Write a positive and uplifting paragraph about - {topic}".
+- **Negative -** "Write a sad and emotional paragraph about - {topic}".
+- **Neutral -** "Write a factual and objective paragraph about - {topic}".
 
 ### Generation Parameters
 ```python
@@ -155,4 +154,3 @@ These settings balance creativity with coherence while minimizing repetition.
 - Dark mode theme toggle.
 - Fine-tuned sentiment-specific generation models.
 - Batch processing capability.
-
